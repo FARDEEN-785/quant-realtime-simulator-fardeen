@@ -1,0 +1,8 @@
+quant-realtime-simulator-fardeen/
+├── main.py                     # Entry point: pulls live data, applies strategy
+├── strategy.py                 # MACD strategy logic
+├── wallet.py                   # Paper trading wallet logic
+├── config.py                   # Settings: symbol, MACD params, wallet
+├── trade_log.csv               # (auto-generated) record of trades
+├── requirements.txt
+└── README.md
